@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Determines if a number is positive, negative or zero.
  *
@@ -13,5 +13,4 @@ void positive_or_negative(int i)
 	printf("%d is negative\n", i);
 	else
 	printf("%d is zero\n", i);
-	return (0);
 }
